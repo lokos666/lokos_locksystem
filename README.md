@@ -22,7 +22,7 @@ Komendy:
 - addkeys, givekeys
 - removekeys
 
-Triggery:
+Server eventy:
 ```lua
 lokos_locksystem:addKeys (target --[[ player id ]], plate --[[ string ]])
 
