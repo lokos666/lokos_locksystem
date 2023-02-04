@@ -17,6 +17,17 @@ end)
 		stack = false -- !
 },
 ```
+## Jak uzywac
+Komendy:
+- addkeys, givekeys
+- removekeys
+
+Triggery:
+```lua
+lokos_locksystem:addKeys (target --[[ player id ]], plate --[[ string ]])
+
+lokos_locksystem:removeKeys (target --[[ player id ]], plate --[[ string ]])
+```
 
 ## Support
 Nie udzielam, jak nie dziala i nie potrafisz wykonac troubleshootingu tak prostego skryptu nie polecam pakowac sie w fivema.
