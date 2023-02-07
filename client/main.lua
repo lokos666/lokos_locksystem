@@ -7,9 +7,6 @@ useKeys = function(plate)
       local vehiclePlate = GetVehicleNumberPlateText(closestVehicle)
 
       if vehiclePlate == plate then 
-          local netId = VehToNet(closestVehicle)
-          NetworkRequestControlOfNetworkId(netId) -- moze pomoze
-
           Entity(closestVehicle).state.zamek = true -- do cooldownu
 
           local lockState = GetVehicleDoorsLockedForPlayer(closestVehicle, cache.playerId)
